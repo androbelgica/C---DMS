@@ -1,0 +1,184 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Montserrat;
+}
+
+.main {
+    padding-top: 60px;
+    margin-left: 20px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+}
+
+.page-heading {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/*MODAL*/
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 60px); /* Adjust this value if you have a fixed header */
+    max-width: 30%;
+}
+
+.modal-content {
+    width: 100%;
+    max-width: 600px;
+}
+
+.submit {
+    color: #fff;
+    background-color: green;
+}
+
+    .submit:hover {
+        color: #fff;
+        background-color: seagreen;
+    }
+
+/*END MODAL*/
+
+
+.alert {
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.form-label {
+    font-size: 15px;
+}
+
+.txtbox {
+    font-size: 13px;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.edit-btn {
+    background-color: #B48C2C;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    .edit-btn:hover {
+        background-color: #242424;
+        color: #B48C2C;
+        transform: scale(1.1); /* Slightly enlarge the button on hover */
+    }
+
+
+
+@media only screen and (max-width: 1025px) and (max-height: 1367px) {
+    .modal-dialog {
+        min-height: calc(100vh - 80px); /* Adjust this value if you have a fixed header */
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 913px) and (max-height: 1369px) {
+    .modal-dialog {
+        min-height: calc(100vh - 80px); /* Adjust this value if you have a fixed header */
+        max-width: 50%;
+    }
+
+    .main {
+        padding-top: 70px;
+        margin-left: 20px;
+    }
+
+    .form-label {
+        font-size: 15px;
+    }
+
+    .txtbox {
+        font-size: 15px;
+        padding: 20px;
+        margin-top: 5px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1025px) and (max-height: 1367px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    .main {
+        padding-top: 60px;
+        margin-left: 0; /* Adjust to fit smaller screens */
+    }
+
+    .heading {
+        flex-direction: column; /* Stack headings in a column */
+    }
+
+    .page-heading {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+    .modal-dialog {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 913px) and (max-height: 1369px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    .main {
+        padding-top: 60px;
+        margin-left: 0; /* Adjust to fit smaller screens */
+    }
+
+    .heading {
+        flex-direction: column; /* Stack headings in a column */
+    }
+
+    .page-heading {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+    .modal-dialog {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 431px) and (max-height: 933px) {
+
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    .main {
+        padding-top: 50px;
+        margin-left: 0; /* Adjust to fit smaller screens */
+        margin-bottom: 10px;
+    }
+
+    .heading {
+        flex-direction: column; /* Stack headings in a column */
+    }
+
+    .page-heading {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+    .modal-dialog {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Visco\OneDrive\Desktop\bellevue dms\DMS\DMS\bin\app.publish\</_PublishTargetUrl>
+    <History>True|2024-05-22T03:43:38.7119930Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ADMIN/DashboardAdmin.aspx">
+      <publishTime>05/21/2024 08:15:15</publishTime>
+    </File>
+    <File Include="bin/BouncyCastle.Cryptography.dll">
+      <publishTime>05/21/2024 08:15:44</publishTime>
+    </File>
+    <File Include="bin/DMS.dll">
+      <publishTime>05/22/2024 11:43:35</publishTime>
+    </File>
+    <File Include="bin/DMS.pdb">
+      <publishTime>05/22/2024 11:43:35</publishTime>
+    </File>
+    <File Include="bin/Google.Protobuf.dll">
+      <publishTime>05/21/2024 08:15:45</publishTime>
+    </File>
+    <File Include="bin/Google.Protobuf.pdb">
+      <publishTime>05/21/2024 08:15:46</publishTime>
+    </File>
+    <File Include="bin/K4os.Compression.LZ4.dll">
+      <publishTime>05/21/2024 08:15:46</publishTime>
+    </File>
+    <File Include="bin/K4os.Compression.LZ4.Streams.dll">
+      <publishTime>05/21/2024 08:15:47</publishTime>
+    </File>
+    <File Include="bin/K4os.Hash.xxHash.dll">
+      <publishTime>05/21/2024 08:15:48</publishTime>
+    </File>
+    <File Include="bin/Mammoth.dll">
+      <publishTime>05/21/2024 08:15:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>05/21/2024 08:15:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/21/2024 08:15:50</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>05/21/2024 08:15:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/21/2024 08:15:51</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/21/2024 08:15:51</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/21/2024 08:15:51</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/21/2024 08:15:51</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/21/2024 08:15:51</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/21/2024 08:15:51</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>05/21/2024 08:15:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/21/2024 08:15:53</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>05/21/2024 08:15:55</publishTime>
+    </File>
+    <File Include="bin/System.Configuration.ConfigurationManager.dll">
+      <publishTime>05/21/2024 08:15:56</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>05/21/2024 08:15:57</publishTime>
+    </File>
+    <File Include="bin/System.IO.Pipelines.dll">
+      <publishTime>05/21/2024 08:15:57</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>05/21/2024 08:15:58</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>05/21/2024 08:15:58</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>05/21/2024 08:16:00</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Extensions.dll">
+      <publishTime>05/21/2024 08:16:01</publishTime>
+    </File>
+    <File Include="bin/ZstdSharp.dll">
+      <publishTime>05/21/2024 08:16:16</publishTime>
+    </File>
+    <File Include="bin/zxing.dll">
+      <publishTime>05/21/2024 08:16:20</publishTime>
+    </File>
+    <File Include="bin/zxing.presentation.dll">
+      <publishTime>05/21/2024 08:16:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css.map">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css.map">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css.map">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css.map">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css.map">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css.map">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>05/21/2024 08:15:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>05/21/2024 08:15:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>05/21/2024 08:15:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>05/21/2024 08:15:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css">
+      <publishTime>05/21/2024 08:15:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css.map">
+      <publishTime>05/21/2024 08:15:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css">
+      <publishTime>05/21/2024 08:15:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css.map">
+      <publishTime>05/21/2024 08:15:20</publishTime>
+    </File>
+    <File Include="CSS/audit.css">
+      <publishTime>05/22/2024 10:27:49</publishTime>
+    </File>
+    <File Include="CSS/dashboard.css">
+      <publishTime>05/22/2024 09:51:49</publishTime>
+    </File>
+    <File Include="CSS/landing.css">
+      <publishTime>05/21/2024 08:15:21</publishTime>
+    </File>
+    <File Include="CSS/login.css">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="CSS/settings.css">
+      <publishTime>05/22/2024 10:22:38</publishTime>
+    </File>
+    <File Include="CSS/style.css">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="CSS/StyleSheet1.css">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="CSS/topnav.css">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="CSS/upload.css">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="Images/Landing BG.png">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="Images/Login BG.png">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="Images/Logo 1.png">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="Images/Logo 2.png">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="Images/Logo 3.png">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="LOGIN/Code.aspx">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="LOGIN/LandingPage.aspx">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="LOGIN/Login.aspx">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="LOGIN/NewPW.aspx">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="LOGIN/ResetPW.aspx">
+      <publishTime>05/21/2024 08:15:22</publishTime>
+    </File>
+    <File Include="MIS/Audit.aspx">
+      <publishTime>05/22/2024 10:29:38</publishTime>
+    </File>
+    <File Include="MIS/Dashboard.aspx">
+      <publishTime>05/22/2024 10:28:12</publishTime>
+    </File>
+    <File Include="MIS/Help.aspx">
+      <publishTime>05/21/2024 08:15:23</publishTime>
+    </File>
+    <File Include="MIS/Settings.aspx">
+      <publishTime>05/22/2024 10:22:27</publishTime>
+    </File>
+    <File Include="MIS/Upload.aspx">
+      <publishTime>05/22/2024 10:44:08</publishTime>
+    </File>
+    <File Include="script.js">
+      <publishTime>05/21/2024 08:15:15</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>05/21/2024 08:15:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>05/21/2024 08:15:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>05/21/2024 08:15:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>05/21/2024 08:15:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js">
+      <publishTime>05/21/2024 08:15:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js.map">
+      <publishTime>05/21/2024 08:15:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js">
+      <publishTime>05/21/2024 08:15:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js.map">
+      <publishTime>05/21/2024 08:15:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>05/21/2024 08:15:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>05/21/2024 08:15:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>05/21/2024 08:15:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>05/21/2024 08:15:24</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/ambiguous_words.exe">
+      <publishTime>05/21/2024 08:15:26</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/classifier_tester.exe">
+      <publishTime>05/21/2024 08:15:28</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/cntraining.exe">
+      <publishTime>05/21/2024 08:15:29</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/combine_tessdata.exe">
+      <publishTime>05/21/2024 08:15:30</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/dawg2wordlist.exe">
+      <publishTime>05/21/2024 08:15:31</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/doc/AUTHORS">
+      <publishTime>05/21/2024 08:15:37</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/doc/COPYING">
+      <publishTime>05/21/2024 08:15:37</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/doc/eurotext.tif">
+      <publishTime>05/21/2024 08:15:37</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/doc/phototest.tif">
+      <publishTime>05/21/2024 08:15:37</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/doc/README">
+      <publishTime>05/21/2024 08:15:37</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/doc/ReleaseNotes">
+      <publishTime>05/21/2024 08:15:37</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/java/ScrollView.jar">
+      <publishTime>05/21/2024 08:15:38</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/mftraining.exe">
+      <publishTime>05/21/2024 08:15:32</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/output/ocr_output_buffer.txt">
+      <publishTime>05/21/2024 08:15:38</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/shapeclustering.exe">
+      <publishTime>05/21/2024 08:15:34</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/chi_sim.traineddata">
+      <publishTime>05/21/2024 08:15:38</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/ambigs.train">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/api_config">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/bigram">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/box.train">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/box.train.stderr">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/digits">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/hocr">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/inter">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/kannada">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/linebox">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/logfile">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/makebox">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/quiet">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/rebox">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/strokewidth">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/configs/unlv">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/eng.cube.bigrams">
+      <publishTime>05/21/2024 08:15:38</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/eng.cube.fold">
+      <publishTime>05/21/2024 08:15:38</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/eng.cube.lm">
+      <publishTime>05/21/2024 08:15:38</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/eng.cube.lm_">
+      <publishTime>05/21/2024 08:15:38</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/eng.cube.nn">
+      <publishTime>05/21/2024 08:15:38</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/eng.cube.params">
+      <publishTime>05/21/2024 08:15:38</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/eng.cube.size">
+      <publishTime>05/21/2024 08:15:38</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/eng.cube.word-freq">
+      <publishTime>05/21/2024 08:15:38</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/eng.tesseract_cube.nn">
+      <publishTime>05/21/2024 08:15:38</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/eng.traineddata">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/tessconfigs/batch">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/tessconfigs/batch.nochop">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/tessconfigs/matdemo">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/tessconfigs/msdemo">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/tessconfigs/nobatch">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tessdata/tessconfigs/segdemo">
+      <publishTime>05/21/2024 08:15:39</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/tesseract.exe">
+      <publishTime>05/21/2024 08:15:35</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/unicharset_extractor.exe">
+      <publishTime>05/21/2024 08:15:36</publishTime>
+    </File>
+    <File Include="Tesseract-OCR/wordlist2dawg.exe">
+      <publishTime>05/21/2024 08:15:37</publishTime>
+    </File>
+    <File Include="topnav.Master">
+      <publishTime>05/21/2024 10:45:16</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/22/2024 11:43:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

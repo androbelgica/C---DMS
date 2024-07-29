@@ -1,0 +1,401 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Montserrat;
+    background-color: #F8F8F8;
+}
+
+.main {
+    padding-top: 60px;
+    margin-left: 20px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+}
+
+.page-heading {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+/*TABLE*/
+.custom-gridview-container {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    max-height: 550px; /* Ensure this is large enough to show scrolling content */
+    overflow: hidden; /* Prevent overflow from spilling outside the container */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* Equal shadow on all sides */
+    border-radius: 10px;
+}
+
+.table-body {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.table-header {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.custom-gridview {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+    .custom-gridview th {
+        padding: 8px;
+        text-align: center;
+        font-size: 12px;
+        background-color: #d0ab57;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+        .custom-gridview th:first-child {
+            border-radius: 5px 0 0 0;
+        }
+
+        .custom-gridview th:last-child {
+            border-radius: 0 5px 0 0;
+        }
+
+
+
+
+    .custom-gridview td {
+        padding: 5px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+    .custom-gridview .edit-btn {
+        color: #B48C2C;
+    }
+
+    .custom-gridview tr:hover {
+        background-color: #e0e0e0;
+        cursor: pointer;
+    }
+
+
+
+/*END TABLE*/
+
+/*PAGINATION*/
+.custom-pagination {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+    .custom-pagination .page-item {
+        list-style: none;
+        margin: 0 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .custom-pagination .page-link {
+        color: #B48C2C;
+        background-color: #ffffff;
+        border: 1px solid #B48C2C;
+        border-radius: 4px;
+        padding: 3px 8px;
+        font-size: 15px;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s;
+        font-size: 12px;
+        padding: 6px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+        .custom-pagination .page-link[disabled] {
+            color: #6c757d;
+            pointer-events: none;
+        }
+
+.search-num {
+    font-size: 10px;
+    width: 10%;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #B48C2C;
+}
+
+.page-cont {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+    .page-cont span {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .page-cont .page-of {
+        font-size: 13px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+.page-btn {
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #B48C2C;
+    color: #fff;
+}
+
+    .page-btn:hover {
+        background-color: #F0B31F;
+        color: #000;
+    }
+/*END PAGINATION*/
+
+
+/*FILTER BTNS*/
+.custom-dropdown {
+    border: 1px solid #B48C2C;
+    color: #B48C2C;
+    padding: 6px;
+    background-color: #fff;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+    .custom-dropdown:hover {
+        border: 1px solid #B48C2C;
+        color: #B48C2C;
+    }
+
+.filter-date {
+    width: 150px;
+    padding: 15px;
+    border: 1px solid #B48C2C;
+}
+
+input.filter-date::placeholder {
+    color: #B48C2C;
+}
+
+
+.reset-btn {
+    background-color: #B48C2C;
+    color: #fff;
+    padding: 6px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+    .reset-btn:hover {
+        background-color: #D99F15;
+        color: #fff;
+    }
+
+
+/*TABLE FILTERS*/
+.filterz {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.table-filters {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.date-activity,
+.status-reset {
+    display: flex;
+    flex-direction: row;
+}
+
+/*MODAL*/
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 60px); /* Adjust this value if you have a fixed header */
+    max-width: 100%;
+    width: auto; /* Add this to allow width to adjust based on content */
+    margin: auto; /* Center the modal horizontally */
+}
+
+.modal-content {
+    width: auto; /* Add this to allow width to adjust based on content */
+    max-width: 1950px;
+    margin: auto; /* Center the content within the dialog */
+}
+
+
+.custom-gridview-modal {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    max-height: 550px; /* Ensure this is large enough to show scrolling content */
+    overflow: hidden; /* Prevent overflow from spilling outside the container */
+    background-color: #fff;
+    border-radius: 0px;
+    border-collapse: collapse;
+    overflow-y: auto;
+    border: none;
+}
+
+    .custom-gridview-modal th {
+        padding: 8px;
+        text-align: center;
+        font-size: 12px;
+        background-color: #d0ab57;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+
+    .custom-gridview-modal td:last-child {
+        width: 100px;
+        border-radius: 0;
+    }
+
+    .custom-gridview-modal td {
+        padding: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    .custom-gridview-modal tr:hover {
+        background-color: #e0e0e0;
+        cursor: pointer;
+    }
+
+@media only screen and (max-width: 913px) and (max-height: 1369px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    .main {
+        padding-top: 50px;
+        margin-left: 0; /* Adjust to fit smaller screens */
+    }
+
+    .heading {
+        flex-direction: column; /* Stack headings in a column */
+    }
+
+    .page-heading {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 431px) and (max-height: 933px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    .main {
+        padding-top: 50px;
+        margin-left: 0; /* Adjust to fit smaller screens */
+    }
+
+    .heading {
+        flex-direction: column; /* Stack headings in a column */
+    }
+
+    .page-heading {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .modal-dialog {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: calc(100vh - 60px); /* Adjust this value if you have a fixed header */
+        width: auto; /* Add this to allow width to adjust based on content */
+        margin: auto; /* Center the modal horizontally */
+    }
+
+    .modal-content {
+        width: auto; /* Add this to allow width to adjust based on content */
+        max-width: 360px;
+        margin: auto; /* Center the content within the dialog */
+   }
+
+    .custom-gridview-container {
+        overflow-x: scroll;
+    }
+
+
+
+        .custom-gridview-modal th:nth-child(2),
+        .custom-gridview-modal td:nth-child(2),
+        .custom-gridview-modal th:nth-child(3),
+        .custom-gridview-modal td:nth-child(3),
+        .custom-gridview-modal th:nth-child(6),
+        .custom-gridview-modal td:nth-child(6),
+        .custom-gridview-modal th:nth-child(7),
+        .custom-gridview-modal td:nth-child(7),
+        .custom-gridview-modal th:nth-child(9),
+        .custom-gridview-modal td:nth-child(9) {
+            display: none;
+        }
+
+        .custom-gridview-modal th:first-child,
+        .custom-gridview-modal td:first-child {
+            width: 50px;
+        }
+
+
+
+    /*PAGINATION*/
+
+
+    .modal-body .page-cont span {
+        font-size: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .modal-body .page-cont .page-of {
+        font-size: 10px;
+        margin-left: 3px;
+        margin-right: 3px;
+    } 
+    /*END PAGINATION*/
+}

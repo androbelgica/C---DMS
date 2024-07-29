@@ -1,0 +1,249 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Montserrat;
+    background-color: #F8F8F8;
+}
+
+.main {
+    padding-top: 60px;
+    margin-left: 20px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+}
+
+.page-heading {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.containerz {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+}
+
+.info-card {
+    padding: 20px;
+    border: none;
+    width: 590px;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* Equal shadow on all sides */
+    overflow-y: scroll;
+}
+
+.qr-scan {
+    padding: 20px;
+    border: none;
+    width: 590px;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* Equal shadow on all sides */
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-scan {
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-content: center;
+    justify-content: center;
+}
+
+.camera-container {
+    width: 350px;
+    height: 350px;
+}
+
+.form-group {
+    font-size: 13px;
+}
+
+.form-control {
+    font-size: 13px;
+}
+
+.btn-generate {
+    background-color: #DAA934;
+    font-family: Montserrat;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-generate:hover {
+        background-color: #C89B31;
+        font-family: Montserrat;
+        color: #FFFFFF;
+        transform: scale(1.05);
+    }
+
+.book-btn {
+    background-color: #1E55FF;
+    font-family: Montserrat;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+    .book-btn:hover {
+        background-color: #0032CB;
+        font-family: Montserrat;
+        color: #FFFFFF;
+        transform: scale(1.05);
+    }
+
+
+
+.alert {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+/* CSS to hide the default radio button and style the label */
+.btn-group input[type="radio"] {
+    /* Hide the default radio button */
+    display: none;
+}
+
+.btn-group label {
+    /* Add border and padding to the label */
+    border: 1px solid #B48C2C; /* Border style */
+    padding: 8px 12px; /* Adjust padding as needed */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 13px;
+    color: #B48C2C;
+}
+
+    .btn-group label:hover {
+        background-color: #FDDD92; /* Background color on hover */
+        border-color: #B48C2C; /* Example border color */
+        color: #000;
+    }
+
+.btn-group input[type="radio"]:checked + label {
+    /* Style for checked radio button */
+    background-color: #B48C2C; /* Example background color */
+    color: #fff; /* Example text color */
+    border-color: #B48C2C; /* Example border color */
+}
+
+    .btn-group input[type="radio"]:checked + label:hover {
+        /* Style for checked radio button */
+        background-color: #D5A635; /* Example background color */
+        color: #fff; /* Example text color */
+        border-color: #D5A635; /* Example border color */
+    }
+
+
+.gc-list {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+@media only screen and (max-width: 1025px) and (max-height: 1367px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    .main {
+        padding-top: 50px;
+        margin-left: 0; /* Adjust to fit smaller screens */
+    }
+
+    .heading {
+        flex-direction: column; /* Stack headings in a column */
+    }
+
+    .page-heading {
+        font-size: 34px; /* Adjust font size for smaller screens */
+    }
+
+    .containerz {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .info-card,
+    .qr-scan {
+        width: 99%;
+        height: auto;
+        overflow-y: hidden;
+    }
+}
+
+@media only screen and (max-width: 913px) and (max-height: 1369px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    .main {
+        padding-top: 50px;
+        margin-left: 0; /* Adjust to fit smaller screens */
+    }
+
+    .heading {
+        flex-direction: column; /* Stack headings in a column */
+        margin-top: 5px;
+    }
+
+    .page-heading {
+        font-size: 28px; /* Adjust font size for smaller screens */
+    }
+
+    .containerz {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .info-card,
+    .qr-scan {
+        width: 99%;
+        height: auto;
+        overflow-y: hidden;
+    }
+}
+
+@media only screen and (max-width: 431px) and (max-height: 933px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    .main {
+        padding-top: 50px;
+        margin-left: 0; /* Adjust to fit smaller screens */
+    }
+
+    .heading {
+        flex-direction: column; /* Stack headings in a column */
+    }
+
+    .page-heading {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .containerz {
+        flex-direction: column;
+    }
+
+    .info-card,
+    .qr-scan {
+        width: 98%;
+        height: auto;
+        overflow-y: hidden;
+    }
+}

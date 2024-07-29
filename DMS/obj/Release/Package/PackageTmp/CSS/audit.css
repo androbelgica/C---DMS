@@ -1,0 +1,419 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Montserrat;
+    background-color: #F8F8F8;
+}
+
+.main {
+    padding-top: 60px;
+    margin-left: 20px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+}
+
+.page-heading {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+/*TABLE*/
+/* Ensure the container of the GridView has overflow settings that support scrolling */
+.custom-gridview-container {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    max-height: 550px; /* Ensure this is large enough to show scrolling content */
+    overflow: hidden; /* Prevent overflow from spilling outside the container */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* Equal shadow on all sides */
+    border-radius: 10px;
+}
+
+.table-body {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.table-header {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.custom-gridview {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+    .custom-gridview th {
+        padding: 8px;
+        text-align: center;
+        font-size: 12px;
+        background-color: #d0ab57;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+        .custom-gridview th:first-child {
+            border-radius: 5px 0 0 0;
+        }
+
+        .custom-gridview th:last-child {
+            border-radius: 0 5px 0 0;
+        }
+
+
+    .custom-gridview td:last-child {
+        border-radius: 0 0 5px 5px;
+    }
+
+    .custom-gridview td {
+        padding: 5px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+    .custom-gridview .edit-btn {
+        color: #B48C2C;
+    }
+
+    .custom-gridview tr:hover {
+        background-color: #e0e0e0;
+        cursor: pointer;
+    }
+
+
+
+/*END TABLE*/
+
+/*PAGINATION*/
+.custom-pagination {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+    .custom-pagination .page-item {
+        list-style: none;
+        margin: 0 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .custom-pagination .page-link {
+        color: #B48C2C;
+        background-color: #ffffff;
+        border: 1px solid #B48C2C;
+        border-radius: 4px;
+        padding: 3px 8px;
+        font-size: 15px;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s;
+        font-size: 12px;
+        padding: 6px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+        .custom-pagination .page-link[disabled] {
+            color: #6c757d;
+            pointer-events: none;
+        }
+
+.search-num {
+    font-size: 10px;
+    width: 10%;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #B48C2C;
+}
+
+.page-cont {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+    .page-cont span {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .page-cont .page-of {
+        font-size: 13px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+.page-btn {
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #B48C2C;
+    color: #fff;
+}
+
+    .page-btn:hover {
+        background-color: #F0B31F;
+        color: #000;
+    }
+/*END PAGINATION*/
+
+
+
+/*SEARCH BAR*/
+.search-textbox {
+    width: 280px;
+    padding: 15px;
+}
+
+.filter-date {
+    width: 150px;
+    padding: 15px;
+    border: 1px solid #B48C2C;
+}
+
+input.filter-date::placeholder {
+    color: #B48C2C;
+}
+/*END SEARCH BAR*/
+/*FILTER BTNS*/
+.custom-dropdown {
+    border: 1px solid #B48C2C;
+    color: #B48C2C;
+    padding: 6px;
+    background-color: #fff;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+    .custom-dropdown:hover {
+        border: 1px solid #B48C2C;
+        color: #B48C2C;
+    }
+
+.linkbtn-container {
+    justify-content: center;
+    align-content: center;
+    margin-left: 15px;
+}
+
+.reset-btn {
+    background-color: #B48C2C;
+    color: #fff;
+    padding: 6px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+    .reset-btn:hover {
+        background-color: #D99F15;
+        color: #fff;
+    }
+
+
+.resetbtn {
+    color: #B48C2C;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+    .resetbtn:hover {
+        text-decoration: none;
+        color: #D99F15;
+    }
+/*END FILTER BTN*/
+
+.ui-dialog-titlebar-close {
+    display: none;
+}
+
+.alert {
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+/*TABLE FILTERS*/
+.filterz {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.table-filters {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.date-activity,
+.status-reset {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@media only screen and (max-width: 1025px) and (max-height: 1367px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    .main {
+        padding-top: 60px;
+        margin-left: 0; /* Adjust to fit smaller screens */
+    }
+
+    .heading {
+        flex-direction: column; /* Stack headings in a column */
+    }
+
+    .page-heading {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .custom-gridview-container {
+        max-height: 950px; /* Ensure this is large enough to show scrolling content */
+    }
+}
+
+@media only screen and (max-width: 913px) and (max-height: 1369px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    .main {
+        padding-top: 60px;
+        margin-left: 0; /* Adjust to fit smaller screens */
+    }
+
+    .heading {
+        flex-direction: column; /* Stack headings in a column */
+    }
+
+    .page-heading {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .search-textbox {
+        width: 200px;
+    }
+
+    .custom-gridview-container {
+        max-height: 750px; /* Ensure this is large enough to show scrolling content */
+    }
+}
+
+@media only screen and (max-width: 541px) and (max-height: 721px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    .main {
+        padding-top: 50px;
+        margin-left: 0; /* Adjust to fit smaller screens */
+    }
+
+    .heading {
+        flex-direction: column; /* Stack headings in a column */
+    }
+
+    .page-heading {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .card {
+        height: 900px;
+    }
+
+    .custom-gridview-container {
+        max-height: 450px; /* Ensure this is large enough to show scrolling content */
+    }
+
+    .search-textbox {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 431px) and (max-height: 933px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    .main {
+        padding-top: 50px;
+        margin-left: 0; /* Adjust to fit smaller screens */
+    }
+
+    .heading {
+        flex-direction: column; /* Stack headings in a column */
+    }
+
+    .page-heading {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .card {
+        height: 900px;
+    }
+
+    .custom-gridview-container {
+        max-height: 550px; /* Ensure this is large enough to show scrolling content */
+    }
+
+    .search-textbox {
+        width: 180px;
+    }
+
+    .date-activity,
+    .status-reset {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    }
+
+    .table-filters {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .filterz {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+}

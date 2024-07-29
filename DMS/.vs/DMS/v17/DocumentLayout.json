@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\forgc\\DMS\\DMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\ResetPW.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\topnav.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Upload.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Upload.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Settings.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Settings.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\CSS\\audit.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Audit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\LandingPage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\Login.aspx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\Login.aspx",
+              "ToolTip": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\Login.aspx",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-15T13:29:28.808Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResetPW.aspx",
+              "DocumentMoniker": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\ResetPW.aspx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\ResetPW.aspx",
+              "ToolTip": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\ResetPW.aspx",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\ResetPW.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-24T14:18:21.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "topnav.Master",
+              "DocumentMoniker": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\topnav.Master",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\topnav.Master",
+              "ToolTip": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\topnav.Master",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\topnav.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-24T08:43:53.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Upload.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Upload.aspx.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Upload.aspx.cs",
+              "ToolTip": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Upload.aspx.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Upload.aspx.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:40:27.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Upload.aspx",
+              "DocumentMoniker": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Upload.aspx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Upload.aspx",
+              "ToolTip": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Upload.aspx",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Upload.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-24T07:28:59.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Settings.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Settings.aspx.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Settings.aspx.cs",
+              "ToolTip": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Settings.aspx.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Settings.aspx.cs",
+              "ViewState": "AQIAAA4DAAAAAAAAAAAuwO4AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T05:51:37.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Settings.aspx",
+              "DocumentMoniker": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Settings.aspx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Settings.aspx",
+              "ToolTip": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Settings.aspx",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Settings.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-24T05:51:36.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Dashboard.aspx.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Dashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Dashboard.aspx.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Dashboard.aspx.cs",
+              "ViewState": "AQIAAAkBAAAAAAAAAAAcwBcBAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T05:50:33.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Dashboard.aspx",
+              "ToolTip": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Dashboard.aspx",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-24T05:50:02.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "audit.css",
+              "DocumentMoniker": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\CSS\\audit.css",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\CSS\\audit.css",
+              "ToolTip": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\CSS\\audit.css",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\CSS\\audit.css",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAADsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-24T05:33:23.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Audit.aspx",
+              "DocumentMoniker": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Audit.aspx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Audit.aspx",
+              "ToolTip": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Audit.aspx",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\MIS\\Audit.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-24T05:33:04.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LandingPage.aspx",
+              "DocumentMoniker": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\LandingPage.aspx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\LandingPage.aspx",
+              "ToolTip": "C:\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\LandingPage.aspx",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Angel\\Downloads\\Telegram Desktop\\DMS May 23\\DMS\\DMS\\LOGIN\\LandingPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-23T08:39:14.321Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

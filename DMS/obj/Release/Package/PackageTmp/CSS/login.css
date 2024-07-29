@@ -1,0 +1,294 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../Images/BG.png');
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container {
+    max-width: 100%; /* Ensure the container occupies the full width */
+    padding: 20px; /* Adjust padding for smaller screens */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    flex-direction: column; /* Change flex direction for smaller screens */
+    margin-top: 0; /* Remove margin-top */
+    margin-right: auto; /* Center the container horizontally */
+    margin-left: auto; /* Center the container horizontally */
+}
+
+.content {
+    max-width: 100%; /* Adjust width for smaller screens */
+    color: #fff;
+    text-align: left;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.logo {
+    max-width: 90px; /* Adjust maximum width as needed */
+}
+
+
+.text2 {
+    color: red;
+}
+
+.cont {
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    height: 100vh; /* Make the container occupy the full height of the viewport */
+    margin-right: 50px;
+}
+
+.card {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    color: black;
+    font-family: Montserrat;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+
+    .card a {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+.label {
+    color: black;
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+.form-control {
+    width: 100%;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.login-button {
+    background-color: #B48C2C;
+    color: #fff;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 15px;
+}
+
+    .login-button:hover {
+        background-color: #242424;
+        color: #B48C2C;
+    }
+
+.forgot a {
+    color: blue;
+    font-size: 13px;
+    font-family: Montserrat;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.forgot:hover a {
+    color: #000;
+}
+
+.alert {
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@media only screen and (max-width: 1025px) and (max-height: 1367px) {
+    body, html {
+        justify-content: center;
+    }
+
+    .cont {
+        margin-right: 0;
+    }
+
+    .card {
+        width: 500px;
+        height: 550px;
+    }
+
+        .card a {
+            font-size: 25px;
+        }
+
+    .label {
+        font-size: 23px;
+    }
+
+    .form-control {
+        font-size: 23px;
+    }
+
+    .forgot a {
+        font-size: 18px;
+    }
+
+    .login-button {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 913px) and (max-height: 1369px) {
+    body, html {
+        justify-content: center;
+    }
+
+    .cont {
+        margin-right: 0;
+    }
+    .card {
+        width: 450px;
+        height: 550px;
+    }
+    .card a {
+        font-size: 22px;
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+    .form-control {
+        font-size: 20px;
+    }
+
+    .forgot a {
+        font-size: 15px;
+    }
+
+    .login-button {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 821px) and (max-height: 1181px) {
+    body, html {
+        justify-content: center;
+    }
+
+    .cont {
+        margin-right: 0;
+    }
+
+    .card {
+        width: 400px;
+        height: 600px;
+    }
+
+        .card a {
+            font-size: 23px;
+        }
+
+    .label {
+        font-size: 19px;
+    }
+
+    .form-control {
+        font-size: 19px;
+    }
+
+    .forgot a {
+        font-size: 15px;
+    }
+
+    .login-button {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 541px) and (max-height: 721px) {
+    body, html {
+        justify-content: center;
+    }
+
+    .cont {
+        margin-right: 0;
+    }
+
+    .card {
+        width: 300px;
+        height: 450px;
+    }
+
+        .card a {
+            font-size: 15px;
+        }
+
+    .label {
+        font-size: 14px;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+
+    .forgot a {
+        font-size: 10px;
+    }
+
+    .login-button {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 431px) and (max-height: 933px) {
+    body, html {
+        justify-content: center;
+    }
+
+    .cont {
+        margin-right: 0;
+    }
+    .card {
+        width: 300px;
+        height: 450px;
+    }
+
+    .card a {
+        font-size: 15px;
+    }
+
+    .label {
+        font-size: 14px;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+
+    .forgot a {
+        font-size: 10px;
+    }
+
+    .login-button {
+        font-size: 20px;
+    }
+}
