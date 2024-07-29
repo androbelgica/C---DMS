@@ -187,7 +187,7 @@ ORDER BY
                             }
                             else
                             {
-                                // Handle case where no data is returned
+                               
                                 gvGiftCertificates.DataSource = null;
                                 gvGiftCertificates.DataBind();
                                 BindPagination();
@@ -196,7 +196,7 @@ ORDER BY
                     }
                     catch (Exception ex)
                     {
-                        // Log the exception or handle it as needed
+                      
                         Response.Write("Error: " + ex.Message);
                     }
                 }
@@ -211,15 +211,16 @@ ORDER BY
             {
                 int rowIndex = Convert.ToInt32(e.CommandArgument);
                 GridViewRow row = gvGiftCertificates.Rows[rowIndex];
-                string batchIdentifier = row.Cells[10].Text; // Adjust the cell index as necessary
+                batchIdentifier = row.Cells[10].Text; 
+                hfBatchIdentifier.Value = batchIdentifier; 
 
-                // Set the hidden field value and trigger the modal
-                hfBatchIdentifier.Value = batchIdentifier;
+               
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "ShowModal", "$('#batchModal').modal('show');", true);
             }
         }
 
-        
+
+
         protected void gvGiftCertificates_RowDataBound(object sender, GridViewRowEventArgs e)
         {
             if (e.Row.RowType == DataControlRowType.DataRow)
@@ -234,99 +235,13 @@ ORDER BY
 
         protected void btnDownloadAll_Click(object sender, EventArgs e)
         {
-            string query = @"
-            SELECT 
-                GCNumber, 
-                Recipient, 
-                Entitlement, 
-                Description, 
-                DATE_FORMAT(DateOfIssue, '%Y-%m-%d') AS DateOfIssue, 
-                DATE_FORMAT(Validity, '%Y-%m-%d') AS Validity, 
-                GCType, 
-                ChargeTo, 
-                Status, 
-                Quantity,
-                QRCodeImage,
-                PrivacyHash
-            FROM 
-                giftcertificates";
+            DataTable batchDetails = GetBatchDetails(hfBatchIdentifier.Value);
 
-            using (MySqlConnection connection = new MySqlConnection(GetConnectionString()))
-            {
-                using (MySqlCommand command = new MySqlCommand(query, connection))
-                {
-                    connection.Open();
-                    using (MySqlDataAdapter adapter = new MySqlDataAdapter(command))
-                    {
-                        DataSet dataSet = new DataSet();
-                        adapter.Fill(dataSet);
-
-                        using (XLWorkbook workbook = new XLWorkbook())
-                        {
-                            IXLWorksheet worksheet = workbook.Worksheets.Add("Gift Certificates");
-
-                            worksheet.Cell(1, 1).Value = "GCNumber";
-                            worksheet.Cell(1, 2).Value = "Recipient";
-                            worksheet.Cell(1, 3).Value = "Entitlement";
-                            worksheet.Cell(1, 4).Value = "Description";
-                            worksheet.Cell(1, 5).Value = "DateOfIssue";
-                            worksheet.Cell(1, 6).Value = "Validity";
-                            worksheet.Cell(1, 7).Value = "GCType";
-                            worksheet.Cell(1, 8).Value = "ChargeTo";
-                            worksheet.Cell(1, 9).Value = "Status";
-                            worksheet.Cell(1, 10).Value = "Quantity";
-                            worksheet.Cell(1, 11).Value = "QRCodeImage";
-                            worksheet.Cell(1, 12).Value = "PrivacyHash";
-
-                            for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
-                            {
-                                worksheet.Cell(i + 2, 1).Value = dataSet.Tables[0].Rows[i]["GCNumber"].ToString();
-                                worksheet.Cell(i + 2, 2).Value = dataSet.Tables[0].Rows[i]["Recipient"].ToString();
-                                worksheet.Cell(i + 2, 3).Value = dataSet.Tables[0].Rows[i]["Entitlement"].ToString();
-                                worksheet.Cell(i + 2, 4).Value = dataSet.Tables[0].Rows[i]["Description"].ToString();
-                                worksheet.Cell(i + 2, 5).Value = dataSet.Tables[0].Rows[i]["DateOfIssue"].ToString();
-                                worksheet.Cell(i + 2, 6).Value = dataSet.Tables[0].Rows[i]["Validity"].ToString();
-                                worksheet.Cell(i + 2, 7).Value = dataSet.Tables[0].Rows[i]["GCType"].ToString();
-                                worksheet.Cell(i + 2, 8).Value = dataSet.Tables[0].Rows[i]["ChargeTo"].ToString();
-                                worksheet.Cell(i + 2, 9).Value = dataSet.Tables[0].Rows[i]["Status"].ToString();
-                                worksheet.Cell(i + 2, 10).Value = dataSet.Tables[0].Rows[i]["Quantity"].ToString();
-                                worksheet.Cell(i + 2, 12).Value = dataSet.Tables[0].Rows[i]["PrivacyHash"].ToString();
-
-                                // Get and resize the QRCodeImage
-                                byte[] qrCodeBytes = (byte[])dataSet.Tables[0].Rows[i]["QRCodeImage"];
-                                using (MemoryStream ms = new MemoryStream(qrCodeBytes))
-                                {
-                                    using (Bitmap originalImage = new Bitmap(ms))
-                                    {
-                                        using (Bitmap resizedImage = new Bitmap(originalImage, new Size(320, 320)))
-                                        {
-                                            using (MemoryStream resizedMs = new MemoryStream())
-                                            {
-                                                resizedImage.Save(resizedMs, ImageFormat.Png);
-                                                IXLPicture picture = worksheet.AddPicture(resizedMs).MoveTo(worksheet.Cell(i + 2, 11));
-                                                picture.Scale(0.5); // Adjust scale as needed
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-
-                            using (MemoryStream stream = new MemoryStream())
-                            {
-                                workbook.SaveAs(stream);
-                                byte[] content = stream.ToArray();
-
-                                Response.Clear();
-                                Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
-                                Response.AddHeader("content-disposition", "attachment;filename=GiftCertificates.xlsx");
-                                Response.BinaryWrite(content);
-                                Response.End();
-                            }
-                        }
-                    }
-                }
-            }
+            ExportToExcel(batchDetails);
         }
+
+       
+
 
 
         private DataTable GetBatchDetails(string batchIdentifier)
@@ -371,10 +286,10 @@ ORDER BY
             {
                 var worksheet = wb.Worksheets.Add("BatchDetails");
 
-                // Load data table into worksheet
+             
                 worksheet.Cell(1, 1).InsertTable(dataTable);
 
-                // Iterate over the rows to insert images
+              
                 for (int i = 0; i < dataTable.Rows.Count; i++)
                 {
                     if (dataTable.Rows[i]["QRCodeImage"] != DBNull.Value)
@@ -383,13 +298,17 @@ ORDER BY
                         using (MemoryStream ms = new MemoryStream(imageBytes))
                         {
                             Bitmap image = new Bitmap(ms);
+
+                         
+                            Bitmap resizedImage = new Bitmap(image, new Size(180, 180));
+
                             using (MemoryStream imageStream = new MemoryStream())
                             {
-                                image.Save(imageStream, ImageFormat.Png);
+                                resizedImage.Save(imageStream, ImageFormat.Png);
                                 var imageCell = worksheet.Cell(i + 2, dataTable.Columns["QRCodeImage"].Ordinal + 1); // Adjust cell index if needed
                                 var imageXL = worksheet.AddPicture(imageStream)
                                                        .MoveTo(imageCell)
-                                                       .Scale(0.5); // Adjust scale as needed
+                                                       .Scale(1.0); 
                             }
                         }
                     }
@@ -410,6 +329,7 @@ ORDER BY
                 }
             }
         }
+
 
 
 
